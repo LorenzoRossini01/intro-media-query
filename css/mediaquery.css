@@ -1,0 +1,102 @@
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  h1 {
+    background-color: green;
+    text-align: center;
+  }
+
+  .blocchi {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .blocco {
+    min-width: calc(100% / 3 - 5px);
+    height: 200px;
+    background-color: blue;
+  }
+
+  .blocco-loghi {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+  }
+
+  .logo {
+    width: calc(50% - 5px);
+  }
+
+  #square-to-circle {
+    border-radius: 0%;
+  }
+
+  .part5 {
+    max-width: 100%;
+  }
+
+  .part5 ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color: white;
+    margin: 1rem 0;
+    padding: 0;
+  }
+
+  .part5 ul li {
+    background-color: gray;
+    padding: 0.5rem 2rem;
+  }
+
+  .part6 {
+    display: flex;
+  }
+
+  .col-small {
+    width: 40%;
+  }
+
+  .col-big {
+    display: flex;
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .logo {
+    width: calc(100% / 3 - 5px);
+  }
+
+  .part4 {
+    width: 100%;
+    height: 550px;
+    background-color: blue;
+  }
+
+  .part5 ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 1rem 0;
+    padding: 0;
+
+    gap: 2rem;
+    color: white;
+  }
+
+  .part5 ul li {
+    background-color: gray;
+    padding: 1rem 2.5rem;
+  }
+}
